@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.iproject.InsertController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.AddController">
     <children>
         <Label alignment="CENTER" layoutX="223.0" layoutY="-1.0" prefHeight="30.0" prefWidth="155.0" style="-fx-background-color: lightGray;" text="Add new volunteer" textAlignment="CENTER" wrapText="true">
             <font>
@@ -18,14 +18,14 @@
         </Label>
         <TextField fx:id="bar_code_text" layoutX="26.0" layoutY="133.0" />
         <TextField fx:id="company_text" layoutX="26.0" layoutY="186.0" />
-        <Label layoutX="25.0" layoutY="116.0" text="Name" />
-        <Label layoutX="26.0" layoutY="169.0" text="Faculty" />
+        <Label layoutX="222.0" layoutY="116.0" text="Name" />
+        <Label layoutX="224.0" layoutY="177.0" text="Faculty" />
         <TextField fx:id="product_name_text" layoutX="224.0" layoutY="133.0" />
-        <Label layoutX="224.0" layoutY="116.0" text="email" />
-        <Label layoutX="424.0" layoutY="147.0" text="Member Status" />
+        <Label layoutX="415.0" layoutY="116.0" text="email" />
+        <Label layoutX="26.0" layoutY="231.0" text="Member Status" />
         <TextField fx:id="price_text" layoutX="224.0" layoutY="186.0" />
-        <Label layoutX="221.0" layoutY="169.0" text="Department" />
-        <ChoiceBox fx:id="prescription_text" layoutX="424.0" layoutY="164.0" prefWidth="150.0" value="Not Required">
+        <Label layoutX="415.0" layoutY="177.0" text="Department" />
+        <ChoiceBox fx:id="prescription_text" layoutX="25.0" layoutY="250.0" prefWidth="150.0" value="Not Required">
             <items>
                 <FXCollections fx:factory="observableArrayList">
                     <String fx:value="Required" />
@@ -36,5 +36,9 @@
         <Label fx:id="status" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="255.0" textAlignment="CENTER" />
         <Button fx:id="login" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#goToLogIn" text="Back" />
         <Button fx:id="listOfItems" layoutX="240.0" layoutY="304.0" mnemonicParsing="false" onAction="#goToList" text="List of volunteers" />
+      <TextField fx:id="bar_code_text1" layoutX="415.0" layoutY="133.0" />
+      <TextField fx:id="bar_code_text2" layoutX="415.0" layoutY="187.0" />
+      <Label layoutX="26.0" layoutY="116.0" text="Username" />
+      <Label layoutX="26.0" layoutY="177.0" text="Password" />
     </children>
 </AnchorPane>
