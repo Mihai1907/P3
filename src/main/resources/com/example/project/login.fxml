@@ -21,6 +21,6 @@
       <TextField prefHeight="26.0" prefWidth="279.0" />
       <Label text="Label" />
       <TextField minWidth="100.0" prefHeight="26.0" prefWidth="320.0" />
-      <Button mnemonicParsing="false" text="Button" />
+      <Button mnemonicParsing="false" text="Login" />
     </children>
 </VBox>
